@@ -1,22 +1,21 @@
 {
-  "users": [
-    {
-      "id": 1,
-      "username": "userPro",
-      "password": "$2a$10$EixZaYVK1fsbw1ZfbX3OXe.PdKb.pn66Npw1u4g4iJjj6K6yghwRG",
-      "role": "ALTO"
-    },
-    {
-      "id": 2,
-      "username": "userComun",
-      "password": "$2a$10$EixZaYVK1fsbw1ZfbX3OXe.PdKb.pn66Npw1u4g4iJjj6K6yghwRG",
-      "role": "NORMAL"
-    },
-    {
-      "id": 3,
-      "username": "userInferior",
-      "password": "$2a$10$EixZaYVK1fsbw1ZfbX3OXe.PdKb.pn66Npw1u4g4iJjj6K6yghwRG",
-      "role": "BAIXO"
-    }
-  ]
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "json-server": "^0.17.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
