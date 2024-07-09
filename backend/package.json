@@ -1,13 +1,22 @@
 {
-  "dependencies": {
-    "bcryptjs": "^2.4.3",
-    "body-parser": "^1.20.2",
-    "cors": "^2.8.5",
-    "express": "^4.19.2",
-    "json-server": "^1.0.0-beta.1",
-    "jsonwebtoken": "^9.0.2"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.4"
-  }
+  "users": [
+    {
+      "id": 1,
+      "username": "userPro",
+      "password": "$2a$10$EixZaYVK1fsbw1ZfbX3OXe.PdKb.pn66Npw1u4g4iJjj6K6yghwRG",
+      "role": "ALTO"
+    },
+    {
+      "id": 2,
+      "username": "userComun",
+      "password": "$2a$10$EixZaYVK1fsbw1ZfbX3OXe.PdKb.pn66Npw1u4g4iJjj6K6yghwRG",
+      "role": "NORMAL"
+    },
+    {
+      "id": 3,
+      "username": "userInferior",
+      "password": "$2a$10$EixZaYVK1fsbw1ZfbX3OXe.PdKb.pn66Npw1u4g4iJjj6K6yghwRG",
+      "role": "BAIXO"
+    }
+  ]
 }

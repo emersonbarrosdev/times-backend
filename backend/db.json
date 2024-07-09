@@ -1,0 +1,23 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "username": "userPro",
+        "password": "$2a$10$EixZaYVK1fsbw1ZfbX3OXe.PdKb.pn66Npw1u4g4iJjj6K6yghwRG",
+        "role": "ALTO"
+      },
+      {
+        "id": 2,
+        "username": "userComun",
+        "password": "$2a$10$EixZaYVK1fsbw1ZfbX3OXe.PdKb.pn66Npw1u4g4iJjj6K6yghwRG",
+        "role": "NORMAL"
+      },
+      {
+        "id": 3,
+        "username": "userInferior",
+        "password": "$2a$10$EixZaYVK1fsbw1ZfbX3OXe.PdKb.pn66Npw1u4g4iJjj6K6yghwRG",
+        "role": "BAIXO"
+      }
+    ]
+  }
+  
