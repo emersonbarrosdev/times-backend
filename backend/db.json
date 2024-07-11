@@ -1,22 +1,32 @@
 {
   "users": [
     {
-      "id": 1,
-      "username": "userPro",
-      "password": "proPass",
-      "role": "ALTO"
+      "id": "1",
+      "username": "admin",
+      "password": "adminPass",
+      "role": "ADMIN",
+      "type": "internal"
     },
     {
-      "id": 2,
-      "username": "userComun",
-      "password": "comunPass",
-      "role": "NORMAL"
+      "id": "2",
+      "username": "manager",
+      "password": "managerPss",
+      "role": "MANAGER",
+      "type": "internal"
     },
     {
-      "id": 3,
-      "username": "userInferior",
-      "password": "inferiorPass",
-      "role": "BAIXO"
+      "id": "3",
+      "username": "user",
+      "password": "userPass",
+      "role": "USER",
+      "type": "internal"
+    },
+    {
+      "id": "4",
+      "username": "externalUser",
+      "password": "esternalPass",
+      "role": "USER",
+      "type": "external"
     }
   ]
 }
