@@ -27,6 +27,18 @@
       "password": "esternalPass",
       "role": "USER",
       "type": "external"
+    },
+    {
+      "username": "Eme",
+      "password": "EmePass",
+      "role": "ADMIN",
+      "id": "BtByB_F"
+    },
+    {
+      "username": "92304",
+      "password": "ss",
+      "role": "MANAGER",
+      "id": "eQZwReb"
     }
   ]
 }
