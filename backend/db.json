@@ -2,43 +2,31 @@
   "users": [
     {
       "id": "1",
-      "username": "admin",
+      "username": "admin@admin.com",
       "password": "adminPass",
       "role": "ADMIN",
       "type": "internal"
     },
     {
       "id": "2",
-      "username": "manager",
+      "username": "manager@manager.com",
       "password": "managerPss",
       "role": "MANAGER",
       "type": "internal"
     },
     {
       "id": "3",
-      "username": "user",
+      "username": "user@internal.com",
       "password": "userPass",
       "role": "USER",
       "type": "internal"
     },
     {
       "id": "4",
-      "username": "externalUser",
+      "username": "external-user@external.com",
       "password": "esternalPass",
       "role": "USER",
       "type": "external"
-    },
-    {
-      "username": "Eme",
-      "password": "EmePass",
-      "role": "ADMIN",
-      "id": "BtByB_F"
-    },
-    {
-      "username": "92304",
-      "password": "ss",
-      "role": "MANAGER",
-      "id": "eQZwReb"
     }
   ]
 }
